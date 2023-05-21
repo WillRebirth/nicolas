@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="Encriptador.css">
+        <script src="Encriptador.js"></script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <h1 class="Encabezado"><img src="Imagenes/Logo.png" alt="la letra a del logo de Alura">Proyecto Encriptador</h1>
+            </div>
+        </header>
+        <main class="Principal">
+            <textarea name="Area" id="Cuadro" cols="20" rows="20" placeholder="Ingrese Su Texto Aquí"></textarea>
+            <div class="Caja">
+                <img src="Imagenes/Muñeco.png" id="Muñeco" class="Muñeco" alt="un muñeco mirando un diamante con una lupa">
+                <textarea name="Area2" id="Cuadro2" cols="20" rows="20" placeholder="Ningún Mensaje Fue Encontrado"></textarea>
+            </div>
+            <p>&#9888; Solo letras minusculas y sin acentos</p>
+            <div class="Botones">
+                <button onclick="encriptarMensaje()" type="submit" value="Encriptar" class="Boton-Encriptar">Encriptar</button>
+                <button onclick="desencriptarMensaje()" type="submit" value="Desencriptar" class="Boton-Desencriptar">Desencriptar</button>
+            </div>
+            <button onclick="copiar()" type="submit" value="Copiar" class="Boton-Copiar">Copiar</button>        
+        </main>
+        <footer class="footer">
+            <img src="Imagenes/finalsangre.png" class="Logo" alt="logo de una vaca muerta">
+            <h3 class="h3">Creado Por Nicolas Martinez</h3>
+
+
+        </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>
